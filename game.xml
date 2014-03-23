@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.guilded.eu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.guilded.eu http://www.guilded.eu/XSD/game.xsd">
+	<import>
+		<game>
+			<level>80</level>
+			<races>1</races>
+			<classes>1</classes>
+		</game>
+	</import>
+</data>

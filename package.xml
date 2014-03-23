@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package name="com.guilded.gms.game.gw2" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/package.xsd">
+	<packageinformation>
+		<packagename>GamePackage for Guild Wars 2</packagename>
+		<packagedescription><![CDATA[This package provides support for Guild Wars 2]]></packagedescription>
+		<version>1.0.0 Alpha 1</version>
+		<date>2014-03-22</date>
+		<license><![CDATA[Creative Commons 3.0 <BY-NC-SA> <http://creativecommons.org/licenses/by-nc-sa/3.0/deed>]]></license>
+	</packageinformation>
+	
+	<authorinformation>
+		<author>Teranas</author>
+		<authorurl>http://gw2.teranas.de</authorurl>
+	</authorinformation>
+	
+	<requiredpackages>
+		<requiredpackage minversion="2.0.0 RC 1">com.woltlab.wcf</requiredpackage>
+		<requiredpackage minversion="2.0.0 Alpha 1">com.guilded.gms</requiredpackage>
+	</requiredpackages>
+	
+	<instructions type="install">	
+		<instruction type="file" application="gms">files.tar</instruction>
+		<instruction type="template" application="gms">templates.tar</instruction>
+		<instruction type="game">game.xml</instruction>
+		<instruction type="gameRace">gameRace.xml</instruction>
+		<instruction type="gameRole">gameRole.xml</instruction>
+		<instruction type="gameClassification">gameClassification.xml</instruction>
+		<instruction type="characterProfileMenu">characterProfileMenu.xml</instruction>
+		<instruction type="objectType">objectType.xml</instruction>
+		<instruction type="language">language/*.xml</instruction>
+	</instructions>
+</package>

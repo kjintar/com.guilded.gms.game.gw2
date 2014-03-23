@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<language languagecode="en" xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/maelstrom/language.xsd">
+	<category name="gms.game">
+		<item name="gms.game.gw2.title"><![CDATA[Guild Wars 2]]></item>
+		<item name="gms.game.gw2.class.mesmer"><![CDATA[Mesmer]]></item>
+		<item name="gms.game.gw2.class.elementalist"><![CDATA[Elementalist]]></item>
+		<item name="gms.game.gw2.class.thief"><![CDATA[Thief]]></item>
+		<item name="gms.game.gw2.class.warrior"><![CDATA[Warrior]]></item>
+		<item name="gms.game.gw2.class.guardian"><![CDATA[Guardian]]></item>
+		<item name="gms.game.gw2.class.ranger"><![CDATA[Ranger]]></item>
+		<item name="gms.game.gw2.class.necromancer"><![CDATA[Necromancer]]></item>
+		<item name="gms.game.gw2.class.engineer"><![CDATA[Engineer]]></item>
+
+		<item name="gms.game.gw2.race.human"><![CDATA[Human]]></item>
+		<item name="gms.game.gw2.race.sylvari"><![CDATA[Sylvari]]></item>
+		<item name="gms.game.gw2.race.asura"><![CDATA[Asura]]></item>
+		<item name="gms.game.gw2.race.charr"><![CDATA[Charr]]></item>
+		<item name="gms.game.gw2.race.norn"><![CDATA[Norn]]></item>
+
+		<item name="gms.game.gw2.role.pvp"><![CDATA[PvP]]></item>
+		<item name="gms.game.gw2.role.wvw"><![CDATA[WvW]]></item>
+		<item name="gms.game.gw2.role.pve"><![CDATA[PvE]]></item>
+		
+		<!-- Alternative role system. No icons yet.
+		
+		<item name="gms.game.gw2.role.zerker"><![CDATA[Zerker]]></item>
+		<item name="gms.game.gw2.role.supporter"><![CDATA[Supporter]]></item>
+		<item name="gms.game.gw2.role.tank"><![CDATA[Tank]]></item>
+		<item name="gms.game.gw2.role.allrounder"><![CDATA[Allrounder]]></item>
+		<item name="gms.game.gw2.role.undefined"><![CDATA[Undefined]]></item>
+		
+		-->
+	</category>
+</language>

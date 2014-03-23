@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.guilded.eu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.guilded.eu http://www.guilded.eu/XSD/game-class.xsd">
+	<import>
+		<!-- Internal identifiers are unknown (No API using this kind of data provided yet) -->
+		<classification name="engineer" />
+		<classification name="necromancer" />
+		<classification name="thief" />
+		<classification name="elementalist" />
+		<classification name="warrior" />
+		<classification name="ranger" />
+		<classification name="mesmer" />
+		<classification name="guardian" />
+	</import>
+</data>

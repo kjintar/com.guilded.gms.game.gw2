@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.guilded.eu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.guilded.eu http://www.guilded.eu/XSD/game-role.xsd">
+	<import>
+		<!-- There are no 'classic' class roles in gw2 -->
+		
+		<role name="pvp" />
+		<role name="wvw" />
+		<role name="pve" />
+		
+		<!-- Alternative role system. No icons yet.
+		
+		<role name="undefined" />
+		<role name="zerker" />
+		<role name="supporter" />
+		<role name="tank" />
+		<role name="allrounder" />
+		-->
+	</import>
+</data>
