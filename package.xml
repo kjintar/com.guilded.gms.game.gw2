@@ -20,12 +20,10 @@
 	
 	<instructions type="install">	
 		<instruction type="file" application="gms">files.tar</instruction>
-		<instruction type="template" application="gms">templates.tar</instruction>
 		<instruction type="game">game.xml</instruction>
 		<instruction type="gameRace">gameRace.xml</instruction>
 		<instruction type="gameRole">gameRole.xml</instruction>
 		<instruction type="gameClassification">gameClassification.xml</instruction>
-		<instruction type="characterProfileMenu">characterProfileMenu.xml</instruction>
 		<instruction type="objectType">objectType.xml</instruction>
 		<instruction type="language">language/*.xml</instruction>
 	</instructions>
