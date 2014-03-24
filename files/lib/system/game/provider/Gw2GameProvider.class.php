@@ -28,14 +28,14 @@ use wcf\util\JSON;
 		$guild = $this->getData(array(
 			'guild_details.json'
 		), array(
-			'guild_name' = $name
+			'guild_name' => $name
 		));
 
 		return array(
 			'name' => $guild['guild_name'],
-			'id' => $guild->['guild_id'],
-			'tag' => $guild->['tag'],
-			'emblem' => $guild->['emblem']
+			'id' => $guild['guild_id'],
+			'tag' => $guild['tag'],
+			'emblem' => $guild['emblem']
 		);
 	}
 	
@@ -75,8 +75,8 @@ use wcf\util\JSON;
 		$item = $this->getData(array (
 			'item_details.json'
 		), array(
-			'item_id' = $itemID,
-			'lang' = $language
+			'item_id' => $itemID,
+			'lang' => $language
 		));
 
 		$result = array (
@@ -96,19 +96,19 @@ use wcf\util\JSON;
 		// Add type based data
 		switch($item['type']) {
 			case 'Weapon': 
-				$result['weapon'] =$item['weapon'];
+				$result['weapon'] = $item['weapon'];
 				break;
 			case 'Armor':
-				$result['armor'] =$item['armor'];
+				$result['armor'] = $item['armor'];
 				break;
 			case 'Bag': 
-				$result['bag'] =$item['bag'];
+				$result['bag'] = $item['bag'];
 				break;
 			case 'Consumable': 
-				$result['consumable'] =$item['consumable'];
+				$result['consumable'] = $item['consumable'];
 				break;
 			case 'Container': 
-				$result['container'] =$item['container'];
+				$result['container'] = $item['container'];
 				break;
 			case 'Gizmo': 
 				$result['gizmo'] = $item['gizmo'];
