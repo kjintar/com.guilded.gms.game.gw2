@@ -1,5 +1,4 @@
 <?php
-
 namespace gms\system\game\provider;
 use gms\data\game\GameServer;
 use wcf\util\JSON;
@@ -14,8 +13,7 @@ use wcf\util\JSON;
  * @subpackage	system.game.provider
  * @category	Guilded 2.0
  */
- 
- class Gw2GameProvider extends AbstractGameProvider implements IGameProvider {
+class Gw2GameProvider extends AbstractGameProvider implements IGameProvider {
 	/**
 	 * @see	\wcf\system\game\provider\AbstractGameProvider::$baseUrl
 	 */
@@ -92,7 +90,6 @@ use wcf\util\JSON;
 			'restrictions' => $item['restrictions']
 		);
 		
-		
 		// Add type based data
 		switch($item['type']) {
 			case 'Weapon': 
@@ -125,7 +122,7 @@ use wcf\util\JSON;
 	}
 
 	/**
-	 * Sending request and returns response data.
+	 * @see	\wcf\system\game\provider\AbstractGameProvider::sendRequest()
 	 */
 	protected function sendRequest($url) {
 		parent::sendRequest($url);
