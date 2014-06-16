@@ -2,7 +2,7 @@
 <data xmlns="http://www.guilded.eu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.guilded.eu http://www.guilded.eu/XSD/game-race.xsd">
 	<import>
 		<!-- Internal identifiers are unknown (No API using this kind of data provided yet) -->
-		<race name="asrua" />
+		<race name="asura" />
 		<race name="sylvari" />
 		<race name="human" />
 		<race name="norn" />
